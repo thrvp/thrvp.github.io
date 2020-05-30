@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.cover {
+  background-image: url("topography.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  max-width:100%;
+}
+nav {
+  background-color: #333333;
+  padding: 1rem;
+  padding-right: 10%;
+  width: 100%;
+  margin: 1%;
+}
+nav a:hover {
+  color: lightgoldenrodyellow;
+  transition: color .15s ease-in-out;
+}
+.header-link {
+  color: #ff0099;
+  padding: 5px;
+  float: right;
+  font-family: 'Chelsea Market', cursive;
+}
+.page {
+  padding: 30px 10%;
+  align-content: center;
+}
+p {
+  font-family: consolas, Courier, monospace;
+  line-height: 1.5rem;
+}
+#job-description{
+  color: #ff0099;
+}
+#separator {
+  text-align: center;
+}
+#tech {
+  text-align: center;
+}
+#logo {
+  padding-left: 10%;
+}
